@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    background: whitesmoke;
+    font-family: sans-serif;
+}
+
+nav{
+    background: white;
+    box-shadow: 0 1em 2em rgba(0, 0, 0, 0.5);
+    padding: 16px 0;
+    /* border: 1px solid #000; */
+}
+
+ul{
+    display: flex;
+    justify-content: end;
+
+    margin: 0;
+    padding: 0;
+    list-style: none;    
+}
+
+li{
+    width: 100px;
+    text-align: center;
+}
+
+li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 24px;
+}
